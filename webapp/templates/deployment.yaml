@@ -20,6 +20,11 @@ spec:
       containers:
         - name: {{ .Release.Name }}-container
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          autoscale:
+            cpu: 80
+            minReplicas: 1
+            maxReplicas: 5
+
           ports:
             - containerPort: {{ .Values.service.targetPort }}
           env:
