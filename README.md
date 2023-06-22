@@ -69,6 +69,13 @@ Make sure the database is up and running before the application.
 
 after taking above thing into the consideration then jump into the scripting part where script is written to deploy the webapp in a very conveneint manner.
 
+After configuring helm charts I have done a simple script to deploy the application into the cluster and please specify the cluster because I stated in my localhost.
+
+So after successful running of script by using command: # ./deploy.sh and make them executable by using # chmod +x deploy.sh it is succesfully running in my local.
+
+Thanks for giving me this opportunity to work with you !!
+
+
 
 
 
