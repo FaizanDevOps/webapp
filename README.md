@@ -52,6 +52,7 @@ After running the above command application is running successful and can access
 # http://127.0.0.1:5000/api
 
 But their is one problem with Image sizing because it make the image of size more than a GB so I opt for the Multistage build feature of Dockerfile and use them in my dockerfile so it reduces the size upto 90% and make it more fast and convenient by using multi stage build.
+The First Stage install the Python dependencies using the requirement.txt and saves them in the user's home directory. Second stage runtime image copies all the installed dependencies from the builder stage and sets the working directory . It also add the user base bianry path to make the installed dependencies accesible.
 
 After achieving both steps A is set up Web Application and then  B Dockerizing the application is also done now moving ahead make deployable on kubernetes.
 
