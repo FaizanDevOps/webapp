@@ -53,4 +53,8 @@ After running the above command application is running successful and can access
 
 But their is one problem with Image sizing because it make the image of size more than a GB so I opt for the Multistage build feature of Dockerfile and use them in my dockerfile so it reduces the size upto 90% and make it more fast and convenient by using multi stage build.
 
+After achieving both steps A is set up Web Application and then  B Dockerizing the application is also done now moving ahead make deployable on kubernetes.
+
+
+
 
