@@ -24,7 +24,10 @@ spec:
             cpu: 80
             minReplicas: 1
             maxReplicas: 5
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6ef651026bcf761b6d686f12591cc19c87e67283
           ports:
             - containerPort: {{ .Values.service.targetPort }}
           env:
