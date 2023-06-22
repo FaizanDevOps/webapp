@@ -37,3 +37,11 @@ Create a Dockerfile of a simple web application, So by taking dockerfile we can 
 
 Note --> . is going to specify where is the location of Dockerfile, So . represent it is in current folder.
 
+After creating Dockerfile , We have another option to the app containerized by using docker feature called docker compose . it is very convenient light and fast. Make  the application more robust and easily scalable and configurable.
+
+Just by using
+
+# sudo docker-compose up --build 
+
+Note: --build is used to make the build first and we can put down the application by using  --> sudo docker-compose down
+
