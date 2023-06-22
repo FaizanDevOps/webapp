@@ -29,5 +29,11 @@ Able to access the web app by putting below URL:
 # http://127.0.0.1:5000/healthz
 # http://127.0.0.1:5000/api
 
-These is the complete setup I have done to check the app locally. Next Step to  Make the app in a containerized form by using Dockerfile and Docker-compose and make it more efficien. 
+These is the complete setup I have done to check the app locally. Next Step to  Make the app in a containerized form by using Dockerfile and Docker-compose and make it more efficient.
+
+Create a Dockerfile of a simple web application, So by taking dockerfile we can easily create images and from that images we can create a container from it , The command is mention below to create and run a container by using dockerfile.
+
+# docker build -it image_name .
+
+Note --> . is going to specify where is the location of Dockerfile, So . represent it is in current folder.
 
